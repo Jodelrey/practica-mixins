@@ -1,0 +1,21 @@
+
+.box{
+    @include float;
+    
+}
+
+.box{
+    @include position(30px, 10px);
+}
+
+.box{
+    @include width(100%, 500px,1100px);
+}
+
+.box{
+    @include height(100%, 500px, 1100px);
+}
+
+.box{
+    @include flex(center, center, wrap, column);
+}
